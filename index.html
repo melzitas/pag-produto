@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styless.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section class="produto">
+            <div class="imagens-produto">
+                <img src="/produto/img/anel.png" class="imagem-principal" id="imagem-principal">
+                <div class="miniaturas">
+                    <img src="/produto/img/pulseira.png" class="miniatura" data-imagem="produto 1.png">
+                    <img src="/produto/img/brinco.png" class="miniatura" data-imagem="produto 2.png">
+                    <img src="/produto/img/letra p berloque.png" class="miniatura" data-imagem="produto 3.png">
+                </div>
+            </div>
+
+            <div class="detalhes-produto">
+                <h2>Aneis, Pulseiras e Berloques!</h2>
+                <p class="descricao">Aneis de otima qualidade e bem recomendado!</p>
+                <p class="preco">R$500,00</p>
+
+                <form class="opcoes-compra">
+                    <label for="tamanho">Tamanho:</label>
+                    <select id="tamanho">
+                        <option>39</option>
+                        <option>40</option>
+                        <option>41</option>
+                        <option>42</option>
+                    </select>
+
+                    <label for="cor">Cor:</label>
+                    <select id="cor">
+                        <option>Branco</option>
+                        <option>Azul</option>
+                        <option>Preto</option>
+                    </select>
+
+        <button class="button">COMPRAR</button>
+
+                </form>
+            </div>
+        </section>
+
+        <section class="comentarios">
+            <h3>Comentarios dos clientes</h3>
+
+            <div class="comentario">
+                <img src="/img/marina.jpeg" class="foto-usuario">
+                <p><strong>Marina:</strong> Ótimo produto!</p>
+            </div>
+
+            <div class="comentario">
+                <img src="/img/albymzayn.jpg" class="foto-usuario">
+                <p><strong>Zayn:</strong> Otimo produto, comprei para minha filha.</p>
+            </div>
+        </section>
+    </main>
+    <script src="/produto/public/script.js"></script>
+</body>
+</html>
